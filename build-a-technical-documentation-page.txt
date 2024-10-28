@@ -1,0 +1,328 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav id="navbar">
+        <header>Field Instrumentation Document</header>
+        <ul>
+          <a class="nav-link" href="#introduction"><li>Introduction</li></a>
+            <a class="nav-link" href="#temperature_measurement"><li>Temperature Measurement</li></a>
+            <a class="nav-link" href="#pressure_measurement"><li>Pressure Measurement</li></a>
+            <a class="nav-link" href="#flow_measurement"><li>Flow Measurement</li></a>
+            <a class="nav-link" href="#level_measurement"><li>Level Measurement</li></a>
+            <a class="nav-link" href="#references"><li>References</li></a>
+            </ul>
+      </nav>
+    <main id="main-doc" class="main-doc">
+      <section id="introduction" class="main-section">
+        <header>Introduction</header>
+          <p class="paragraph">Field instrumentation plays a crucial role in industrial automation and control systems, providing the necessary data for monitoring and managing various processes. These instruments, which include sensors, transmitters, and controllers, are installed in the field to measure variables such as temperature, pressure, flow, and level. The data collected by these instruments is essential for ensuring the efficiency, safety, and reliability of industrial operations. The International Society of Automation (ISA) has established standards, such as ANSI/ISA-5.1, to provide uniformity in the symbols and identification of these instruments, facilitating clear communication and understanding among engineers and technicians<code><a class="superscript" href="#reference">1</a></code>.</p>
+          <p  class="paragraph">The ISA standards are widely recognized and adopted in the industry, offering guidelines for the design, installation, and maintenance of field instrumentation. These standards ensure that instruments are accurately represented in diagrams and documentation, which is critical for troubleshooting and maintaining complex systems. Additionally, other international standards, such as those from the International Electrotechnical Commission (IEC) and the American National Standards Institute (ANSI), complement ISA standards by providing broader guidelines for electrical and electronic equipment used in industrial environments<code><a class="superscript" href="#reference">2</a></code>.</p>
+          <p  class="paragraph">Adhering to these standards not only enhances the interoperability and compatibility of instrumentation systems but also promotes safety and efficiency. By following established guidelines, engineers can ensure that their systems meet regulatory requirements and industry best practices. This standardization is particularly important in industries such as oil and gas, chemical processing, and power generation, where precise control and monitoring are vital for operational success<code><a class="superscript" href="#reference">3</a></code>.</p>
+      </section>
+      <section id="temperature_measurement" class="main-section">
+        <header>Temperature Measurement</header>
+        <p class="paragraph">Temperature measurement is a fundamental process in various industries, essential for monitoring and controlling environmental and operational conditions. It involves using devices like thermocouples, RTDs, and bimetal thermometers to obtain accurate temperature readings. These measurements ensure safety, efficiency, and quality in applications ranging from manufacturing to healthcare. Understanding temperature dynamics is crucial for optimizing processes and maintaining equipment performance.</p>
+        <ol type="1">
+          <li>Local Reading (Temperature Indicator) </li>
+          <p>Operators in the field depend on local temperature indicator reading to record the data in logging sheets</p>
+<ol type="a">
+  <li>Thermometer</li>
+  <p class="paragraph">Thermometer is one of the common instrument used to measure the temperature locally and can be mounted on :</p>
+    <ul>
+    <li>Process Pipe line</li>
+    <li>Vessel</li>
+    <li>Compressor, Turbine, etc.</li>
+    </ul>
+    <img src="https://dk.shop.wika.com/upload/WIKA_Thumbnails/Product-Detail-Large/PIC_PR_55_de_de_50513.jpg.png" class="image">
+    </img>
+    <p class="label-image">Thermometer <code><a class="superscript" href="#reference">4</a></code></p>
+    <p class="paragraph">The theory of operation can be one of the following :</p>
+      <ol type="i">
+      <li>Bimetal Thermometer</li>
+      <p class="paragraph">A bimetal thermometer measures temperature using two bonded metal strips with different coefficients of expansion. As the temperature changes, the metals expand or contract at different rates, causing the strip to bend. This bending movement is translated into a temperature reading on a dial. Bimetal thermometers are commonly used in HVAC systems, industrial processes, and household appliances due to their durability and simplicity.</p>
+<img src="https://instrumentationtools.com/wp-content/uploads/2018/04/bimetallic-thermometer-working-principle.jpg" class="image"></img>
+<p class="label-image">Bimetal Thermometer <code><a class="superscript" href="#reference">5</a></code></p>
+      <li>Filled System Thermometer</li>
+      <p class="paragraph">These instruments operate on the principle that as the temperature increases, so too does the pressure as the 
+molecules in the fluid become more active. A spiral bourdon tube, similar to that used for pressure measurement, can
+be used for temperature. The tube may contain either liquid or gas and as the temperature increases, so too does the 
+pressure causing the tube to uncoil and move the pointer to indicate the temperature.</p>
+<img src="https://www.alphacontrols.com/Multimedia/www.alphacontrols.com/Files/Product/Filled_System_Thermometers_01646_xl.jpg" class="image"></img>
+<p class="label-image">Filled System Thermometer <code><a class="superscript" href="#reference">6</a></code></p>
+    </ol>
+    </ol>
+      <li>Remote Reading</li>
+      <ol type="a">
+        <li>Thermocouple</li>
+        <p class="paragraph">A thermocouple is a temperature sensor that consists of two different metal wires joined at one end, creating a junction where the temperature is measured. When this junction experiences a temperature change, it generates a voltage that can be interpreted to determine the temperature. Thermocouples are widely used in industrial applications due to their wide temperature range, durability, and fast response time. They are essential for processes requiring precise temperature monitoring and control.</p>
+<img src="https://www.iqsdirectory.com/articles/thermocouple/thermocouple.jpg" class="image"></img>
+<p class="label-image">Thermocouple operating principles <code><a class="superscript" href="#reference">7</a></code></p>
+        <li>RTD (Resistance Temperature Detector)</li>
+        <p class="paragraph">A Resistance Temperature Detector (RTD) is a sensor used to measure temperature by correlating the resistance of the RTD element with temperature. Typically made from pure platinum, RTDs provide highly accurate and stable temperature readings over a wide range. They are commonly used in industrial applications, including process control and environmental monitoring, due to their precision and reliability. RTDs are essential for ensuring accurate temperature measurements in critical processes.</p>
+        <img src="https://www.circuits-diy.com/wp-content/uploads/2019/12/Capture-1-432x360.jpg" class="image"></img>
+        <p class="label-image">RTD 3-wires <code><a class="superscript" href="#reference">8</a></code></p>
+      </ol>
+      </ol>
+      </section>
+      <section id="pressure_measurement" class="main-section">
+        <header>Pressure Measurement</header>
+        <p class="paragraph">Pressure measurement is a critical process in various industries, used to monitor and control the pressure of gases and liquids within systems. It involves the use of instruments like pressure gauges, transmitters, and sensors to ensure accurate readings. These measurements are essential for maintaining safety, efficiency, and performance in applications ranging from manufacturing to chemical processing. Understanding pressure dynamics helps in preventing equipment failures and optimizing operational processes.</p>
+        <ol type="1">
+          <li>Local Reading</li>
+            <ol type="a">
+              <li>Pressure Indicator</li>
+                <p class="paragraph">A pressure indicator is an instrument used to measure and display the pressure of a fluid within a system. It typically features a dial or digital display that shows the pressure reading, which is obtained through a mechanical or electronic sensor. Pressure gauges are widely used in various industries, including manufacturing, automotive, and HVAC, to ensure systems operate within safe and efficient pressure ranges. Their simplicity and reliability make them essential tools for monitoring and maintaining equipment performance.</p>
+              <img src="https://instrumentationtools.com/wp-content/uploads/2015/08/instrumentationtools.com_pressure-gauge-animation.gif" class="image"></img>
+              <p class="label-image">Pressure Gauge operating principles <code><a class="superscript" href="#reference">9</a></code></p>
+            </ol>
+          <li>Remote Reading</li>
+          <ol type="a">
+            <li>Pressure Transmitter</li>
+          <p class="paragraph">A pressure transmitter is a device used to measure the pressure of gases or liquids and convert this measurement into an electrical signal. It typically consists of a pressure sensor, which detects the pressure, and a transducer, which converts the sensor's output into a readable signal. These transmitters are essential in various industries, including oil and gas, chemical processing, and water treatment, for monitoring and controlling pressure levels. Their accuracy and reliability make them crucial for ensuring safe and efficient operations.</p>
+          <img src="https://webimages.imagebank.abb.com/public/v2/81b3abe4-7558-4f0b-8d57-57422679982b/presentation.jpg" class="image"></img>
+          <p class="label-image">Pressure Transmitter <code><a class="superscript" href="#reference">10</a></code></p>
+          </ol>
+        </ol>
+      </section>
+      <section id="flow_measurement" class="main-section">
+        <header>Flow Measurement</header>
+        <p class="paragraph">Flow measurement is the process of quantifying the flow rate or volume of a fluid moving through a system. It is essential in various industries, including water treatment, chemical processing, and oil and gas, to ensure accurate monitoring and control of fluid dynamics. Different types of flow meters, such as turbine, electromagnetic, and ultrasonic, are used depending on the application and fluid properties. Accurate flow measurement is crucial for optimizing processes, ensuring safety, and maintaining efficiency.</p>
+        <ol type="1">
+          <li>Local Reading</li>
+          <p class="paragraph">Local reading is used to give flow indication for the operator locally.</p>
+          <ol type="a">
+            <li>Variable Area Flow Meter</li>
+            <p class="paragraph">A variable area flow meter, or rotameter, measures the flow rate of liquids and gases by using a float that moves within a tapered tube. As the flow rate increases, the float rises to a point where the upward force of the fluid balances the downward force of gravity. This position corresponds to a specific flow rate, which can be read from a scale on the tube. These meters are simple, reliable, and widely used in industries like chemical processing and water treatment.</p>
+            <img src="https://midstream.com.au/wp-content/uploads/Tecfluid-6000-6001-60002.jpg" class="image"></img>
+            <p class="label-image">Variable Area Flowmeter <code><a href="#reference" class="superscript">11</a></code></p>
+            <li>Target Flow Meter</li>
+            <p class="paragraph">A target flowmeter measures the flow rate of fluids by using a target (or disc) positioned in the flow stream. As fluid flows past the target, it exerts a force proportional to the flow rate, which is measured by a sensor. This force is then converted into an electrical signal that can be read and analyzed. Target flowmeters are commonly used in applications involving viscous fluids, slurries, and dirty or corrosive liquids due to their robust design and ability to handle challenging conditions.</p>
+            <img src="https://www.power-technology.com/wp-content/uploads/sites/21/2018/01/3-target-flow-meters-397x397.jpg" class="image"></img>
+            <p class="label-image">Target Flow Meter <code><a href="#reference" class="superscript">12</a></code></p>
+          </ol>
+          <li>Remote Reading</li>
+          <ol type="a">
+            <li>Differential Pressure Flow Meter</li>
+            <p class="paragraph">A differential pressure flow meter measures the flow rate of a fluid by detecting the pressure drop across a constriction in the flow path, such as an orifice plate or venturi tube. The pressure difference is proportional to the flow rate, allowing for accurate measurement. These meters are widely used in industries like oil and gas, water treatment, and chemical processing due to their reliability and precision. They are essential for applications requiring accurate flow monitoring and control.</p>
+            <img src="https://th.bing.com/th/id/OIP.Blm8aCCtJDjx2B0ZJEzyYAAAAA?rs=1&pid=ImgDetMain" class="image"></img>
+            <p class="label-image">Differential Pressure Flow Meter <code><a href="#reference" class="superscript">13</a></code></p>
+            <li>Magnetic Flow Meter</li>
+            <p class="paragraph">A magnetic flow meter, or magmeter, measures the flow rate of conductive fluids using Faraday's Law of Electromagnetic Induction. It consists of a non-magnetic pipe with electrodes and a magnetic field applied perpendicular to the flow. As the fluid moves through the magnetic field, it generates a voltage proportional to the flow rate, which is then measured by the electrodes. Magmeters are widely used in industries like water treatment and chemical processing due to their accuracy and ability to handle corrosive and dirty fluids.</p>
+            <img src="https://th.bing.com/th/id/OIP.O2mpXEUyPto-mG3gsjcwywHaEK?rs=1&pid=ImgDetMain" class="image"></img>
+            <p class="label-image">Magnetic Flow Meter <code><a href="#reference" class="superscript">14</a></code></p>          
+          </ol>
+        </ol>
+      </section>
+      <section id="level_measurement" class="main-section">
+        <header>Level Measurement</header>
+        <p class="paragraph">Level measurement is a crucial process in various industries, used to determine the height of liquids or solids within a container or vessel. It ensures accurate monitoring and control of material levels, which is essential for maintaining safety, efficiency, and quality in operations. Different technologies, such as ultrasonic, radar, and float-based sensors, are employed depending on the application and material properties. Understanding level measurement helps optimize processes and prevent overflows or shortages.</p>
+        <ol type="1">
+          <li>Local Reading</li>
+          <ol type="a">
+            <li>Level Gauge</li>
+            <p class="paragraph">A level gauge is an instrument used to measure and display the level of liquid or solid material within a container or vessel. It provides a visual indication of the material level, helping operators monitor and control processes effectively. Level gauges are commonly used in industries such as oil and gas, water treatment, and manufacturing. Their simplicity and reliability make them essential tools for ensuring accurate level measurement and preventing overflows or shortages.</p>
+            <img src="https://th.bing.com/th/id/OIP.x1a6M2jHmFNOQHs6fIXRigHaLH?rs=1&pid=ImgDetMain" class="image"></img>
+            <p class="label-image">Level Gauge <code><a href="#reference" class="superscript">15</a></code></p>
+          </ol>
+          <li>Remote Reading</li>
+          <ol type="a">
+            <li>Displacer Level Transmitter</li>
+            <p class="paragraph">A displacer level transmitter measures the level of a liquid by using a buoyant displacer suspended in the fluid. As the liquid level changes, the displacer moves, causing a change in buoyant force that is detected by the transmitter. This change is converted into an electrical signal that indicates the liquid level. Displacer level transmitters are widely used in industries such as oil and gas, chemical processing, and water treatment for their accuracy and reliability in challenging conditions.</p>
+            <img src="https://th.bing.com/th/id/OIP.VkM8VfAM_tkDxsS3mQd8oAAAAA?rs=1&pid=ImgDetMain" class="image"></img>
+            <p class="label-image">Displacer Level Transmitter <code><a href="#reference" class="superscript">16</a></code></p>
+            <li>Differential Pressure Level Transmitter</li>
+            <p class="paragraph">A differential pressure level transmitter measures the level of a liquid by detecting the pressure difference between two points in a vessel. This pressure difference is proportional to the height of the liquid column. The transmitter converts this pressure difference into an electrical signal that indicates the liquid level. These transmitters are widely used in industries like oil and gas, chemical processing, and water treatment for their accuracy and reliability in various applications.</p>
+            <img src="https://instrumentacionycontrol.net/wp-content/uploads/2009/10/Nivel_Medidas_presi%C3%B3n_diferencial.jpg" class="image"></img>
+            <p class="label-image">Differential Pressure Level Transmitter <code><a href="#reference" class="superscript">17</a></code></p>
+            <li>Guided Wave Radar Level Transmitter </li>
+            <p class="paragraph">A Guided Wave Radar (GWR) level transmitter measures the level of liquids or solids by sending microwave pulses along a probe. When these pulses encounter the material surface, they are reflected back to the transmitter. The time it takes for the pulses to return is used to calculate the level. GWR transmitters are highly accurate and reliable, making them ideal for applications in industries like oil and gas, chemical processing, and water treatment, especially in challenging conditions.</p>
+            <img src="https://th.bing.com/th/id/OIP.prnJw_CisceGK_G6UnMI_AHaFF?rs=1&pid=ImgDetMain" class="image"></img>
+            <p class="label-image">Guided Wave Radar Level Transmitter <code><a href="#reference" class="superscript">18</a></code></p>
+          </ol>
+        </ol>
+      </section>
+      <section id="references" class="main-section">
+        <header>References</header>
+        <p class="paragraph">Here is all the reference links on this page</p>
+        <ol  type="1">
+          <li><a class="source" href="http://integrated.cc/cse/Instrumentation_Symbols_and_Identification.pdf">integrated.cc</a></li>
+          <li><a class="source" href="https://control.com/technical-articles/introduction-to-codes-standards-for-instrumentation-controls-engineers/">control.com</a></li>
+          <li><a class="source" href="https://www.isa.org/standards-and-publications/isa-standards/isa-standards-committees/isa5-1">www.isa.org</a></li>
+          <li><a class="source" href="https://dk.shop.wika.com/55_shop_en_co.WIKA">dk.shop.wika.com</a></li>
+          <li><a class="source" href="https://instrumentationtools.com/bimetallic-thermometer/">instrumentationtools.com</a></li>
+          <li><a class="source" href="https://www.alphacontrols.com/Filled-System-Thermometers/model/1646">www.alphacontrols.com</a></li>
+          <li><a class="source" href="https://www.iqsdirectory.com/articles/thermocouple.html">www.iqsdirectory.com</a></li>
+          <li><a class="source" href="https://www.circuits-diy.com/what-is-an-rtd-temperature-sensor-working-application/">www.circuits-diy.com</a></li>
+          <li><a class="source" href="https://instrumentationtools.com/bourdon-tube-pressure-gauge-working-principle-animation/">instrumentationtools.com</a></li>
+          <li><a class="source" href="https://new.abb.com/products/measurement-products/pressure/absolute-pressure-transmitters/266ast-absolute-pressure-transmitter">new.abb.com</a></li>
+          <li><a class="source" href="https://midstream.com.au/products/flow/flow-meters/rotamaters/">midstream.com.au</a></li>
+          <li><a class="source" href="https://www.power-technology.com/products/target-flow-meters/">www.power-technology.com</a></li>
+          <li><a class="source" href="https://www.instrumart.com/products/28975/rosemount-3051sfc-compact-orifice-flow-meter">www.instrumart.com</a></li>
+          <li><a class="source" href="https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/about-magnetic">www.emerson.com</a></li>
+          <li><a class="source" href="https://kenco-eng.com/product/magna-site-magnetic-level-gauge/">kenco-eng.com</a></li>
+          <li><a class="source" href="https://in.pinterest.com/pin/854839573005495857/">in.pinterest.com</a></li>
+          <li><a class="source" href="https://instrumentacionycontrol.net/nivel-medidas-por-presion-diferencial/">instrumentacionycontrol.net</a></li>
+          <li><a class="source" href="https://www.transmittershop.com/blog/how-guided-wave-radar-level-transmitters-work/">www.transmittershop.com</a></li>
+        </ol>
+      </section>
+    </main>
+    </div>
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #FEFDFC;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: thin;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+#navbar li:hover {
+  cursor: pointer;
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+#navbar ul {
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.main-doc {
+  position: absolute;
+  margin-left: 320px;
+  padding: 0 40px;
+  text-align: justify;
+  line-height: 2;
+  min-width: 570px;
+  border-left: 5px solid grey;
+}
+
+.image {
+  max-width: 570px;
+  height: 300px;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+}
+
+.main-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-section .paragraph {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-section ol[type="1"] {
+  margin-left: 1rem;
+}
+
+.main-section ol[type="a"] {
+  margin-left: 1rem;
+}
+
+.main-section ul {
+  margin-left: 1rem;
+}
+
+.main-section ol[type="i"] {
+  margin-left: 1rem;
+}
+
+.main-section .label-image {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-section .superscript {
+  vertical-align: super;
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+
+.main-section .source {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1036px){
+  #navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 682px;
+}
+  #navbar li {
+    padding-left: 40px;
+  }
+
+  .main-doc {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 40px;
+  text-align: justify;
+  line-height: 2;
+  min-width: 682px;
+  border-left: none;
+}
+}
+
+** end of undefined **
+
